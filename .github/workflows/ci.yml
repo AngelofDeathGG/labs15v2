@@ -84,7 +84,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'AngelofDeathGG/cypress15v2'
-          token: ${{ secrets.MI_GITHUB_TOKEN_REPOS }}
+          #token: ${{ secrets.MI_GITHUB_TOKEN_REPOS }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
