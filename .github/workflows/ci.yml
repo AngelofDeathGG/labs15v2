@@ -83,7 +83,7 @@ jobs:
       - name: Checkout Cypress repo
         uses: actions/checkout@v4
         with:
-          repository: 'AngelofDeathGG/labs15v2'
+          repository: 'AngelofDeathGG/cypress15v2'
           token: ${{ secrets.MI_GITHUB_TOKEN_REPOS }}
 
       - name: Set up Node.js
